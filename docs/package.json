@@ -1,0 +1,13 @@
+{
+  "name": "docus-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@docus/app": "npm:@docus/app-edge@2.0.1-27256305.714bf8d"
+  }
+}
