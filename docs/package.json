@@ -8,10 +8,15 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@docus/app": "npm:@docus/app-edge@2.0.1-27256305.714bf8d"
+    "@docus/app": "npm:@docus/app-edge@2.0.1-27256305.714bf8d",
+    "@docus/docs-theme": "npm:@docus/docs-theme-edge@latest"
   },
   "resolutions": {
+    "@docus/core": "npm:@docus/core-edge@1.2.3-27258701.dce5219",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@3.0.0-27264620.a62351a",
     "nuxt-edge": "2.16.0-27264976.293dc11a"
+  },
+  "devDependencies": {
+    "@docus/admin": "^0.0.16"
   }
 }
